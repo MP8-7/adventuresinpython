@@ -36,7 +36,7 @@ else:
     #2 if
     if secondinput.upper() == "2":
         print("You wait, and wait, and wait.")
-        print("The radiation hasn't mellowed")
+        print("The radiation hasn't mellowed.")
         print("It turns out, since the half-life of plutonium is 7,000 years, you die of age.")
         print("GAME OVER")
     else:
@@ -74,7 +74,7 @@ else:
 
             #4 if
             if fourthinput.upper() == "1":
-                print("As you rose up, you decided to rule the remailning world with an iron fist.")
+                print("As you rose up, you decided to rule the remaining world with an iron fist.")
                 print("Everybody obeyed you, but no matter how much many people you enslaved, or how much money you had, there was always an emptyness inside.")
                 print("You never had the chance to just settle down from the chaos in the world, it drives you crazy, wishing you would have done that.")
                 print("BAD ENDING, TRY TO GET THE GOOD AND NEUTRAL ONES," + name + " (There are 3 endings.)")
@@ -84,7 +84,14 @@ else:
                     print("You find a person that loves you, and decide to start a family.")
                     print("You feel happy and accomplished in life.")
                     print("GOOD ENDING, TRY TO GET THE BAD AND NEUTRAL ONES," + name + ". (There are 3 endings.)")
+                    
+                   
+                
 
 
 
 
+'''
+Okay, I kinda wanted the ending to be like "it was all a dream" but that doesn't seem good, so I decided to toddroll everyone instead in the neutral ending.
+ok bye
+'''

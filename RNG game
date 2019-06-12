@@ -1,0 +1,12 @@
+import random
+x = random.randint (0, 5)
+print ("Test your luck! Guess the number and see if you win!")
+print("It's easy, just guess a number from 0 to 5 and if you win, you earn bragging rights!")
+guess = input("What's your number between 0 and 5?")
+print (x)
+if guess == (x):
+
+    print ("Well, kid, you won! Nice try!")
+
+else:
+    print("Sorry, better luck next try")

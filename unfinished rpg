@@ -1,0 +1,40 @@
+'''
+This is a small RPG. It doesn't have any graphics as I've only learned like 5 things.
+Also, I might have made the final boss a copyright infringing one. tobyfoxpleasedon'tsueme
+And some of the enemies are inside jokes between friends, family, and classmates
+'''
+
+import random
+
+enemies = ["A Wild Joe", "Ondrath", "Zori", "Goblin", "PETA", "A hampster?"]
+
+
+#stats are AT, HP, and DEF in that order.
+stats = {
+    "A Wild Joe": [3, 12, 4],
+    "Ondrath": [7, 5, 3],
+    "Zori": [19, 1, 6],
+    "Goblin": [4,4,4], #not very creative, I know.
+    "PETA": [0, 31, 0],
+    "A hampster?": [0, 1, 0]
+    }
+
+#I'm using RNG as well as a base statistic to make character creation random and similar to D&D
+attack = 5 + random.randint(0, 6)
+health = 13 + random.randint(0, 14)
+defense = 8 + random.randint(0,3)
+
+startingHealth = health
+
+enemy = ""
+enemyHealth = 0
+
+while game_running and health > 0:
+    if fighting == False:
+        print ("Fight an enemy, (F), heal, (H) or close game? (X)
+        choice = input("Fight, heal, or exit the DUNGEON?")
+        choice = choice.upper()
+
+if choice == "X":
+               game_running = False
+               print ("You have chosen to EXIT the DUNGEON.")
